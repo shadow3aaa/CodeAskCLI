@@ -165,3 +165,7 @@ templates:
 - `--summary-prompt`: 总结分析提示词文件路径
 
 更多参数和详细说明请使用 `--help` 参数查看。
+
+## Credits
+
+- [CodeAsk](https://github.com/woniu9524/CodeAsk) @woniu9524
