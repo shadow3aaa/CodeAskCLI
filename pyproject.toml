@@ -1,7 +1,8 @@
 [project]
 name = "codeaskcli"
 version = "0.1.0"
-description = "Add your description here"
+description = "根据代码调用llm自动生成解析文档"
+authors = [{ name = "shadow3", email = "shadow3aaaa@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -12,3 +13,6 @@ dependencies = [
     "pyyaml>=6.0.1",
     "rich>=13.7.0",
 ]
+
+[project.scripts]
+codeaskcli = "codeaskcli.cli:main"
