@@ -1,0 +1,14 @@
+[project]
+name = "codeaskcli"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.32.3",
+    "simplejson>=3.20.1",
+    "zstandard>=0.23.0",
+    "tomli>=2.0.1",
+    "pyyaml>=6.0.1",
+    "rich>=13.7.0",
+]
