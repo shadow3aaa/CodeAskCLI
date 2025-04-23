@@ -11,14 +11,8 @@
 ## 使用
 
 ```bash
-# 安装uv
-# windows
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-# macos/linux
-curl -LsSf https://astral.sh/uv/install.sh | sh
-
-# 运行
-uv run main.py
+pipx install codeaskcli
+codeaskcli --help
 ```
 
 ## 使用方法

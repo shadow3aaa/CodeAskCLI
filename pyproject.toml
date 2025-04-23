@@ -1,6 +1,6 @@
 [project]
 name = "codeaskcli"
-version = "0.1.0"
+version = "0.1.2"
 description = "根据代码调用llm自动生成解析文档"
 authors = [{ name = "shadow3", email = "shadow3aaaa@gmail.com" }]
 readme = "README.md"
@@ -15,4 +15,4 @@ dependencies = [
 ]
 
 [project.scripts]
-codeaskcli = "codeaskcli.cli:main"
+codeaskcli = "codeaskcli.main:main"
